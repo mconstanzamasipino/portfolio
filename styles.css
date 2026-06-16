@@ -1097,10 +1097,14 @@ section.block{
   .media-row{ grid-template-columns:1fr; }
   .testim-grid{ columns:1; }
   .contact-grid{ grid-template-columns:1fr; }
-  .hero-notif{ position:relative; left:auto; right:auto; bottom:auto; transform:none; margin:4px 22px 40px; width:auto; padding-bottom:env(safe-area-inset-bottom,0px); }
+  .hero-notif{ position:relative; left:auto; right:auto; bottom:auto; transform:none; margin:12px 22px 56px; width:auto; }
   .hero-notif:hover{ transform:translateY(-4px); }
+  .hero[data-portada] .hero-title{ text-align:center; }
+  .hero[data-portada] .hero-name{ text-align:center !important; }
   main.sections{ padding:60px 18px 30px; }
   section.block{ margin-bottom:80px; }
   .section-head{ flex-wrap:wrap; }
   .section-head .tail{ display:none; }
+  .section-eyebrow{ font-size:32pt; }
+  .section-title{ font-size:clamp(32px,10vw,56px); }
 }
