@@ -222,7 +222,7 @@ body[data-cursor-on="0"] .cursor-clef{ display:none; }
 }
 .hero-title h1{
   font-family:var(--section-title); font-weight:400;
-  font-size:clamp(28px, 3.2vw, 58px);
+  font-size:clamp(38px, 4.2vw, 68px);
   line-height:.9; letter-spacing:.005em;
   text-transform:uppercase; color:var(--ink);
 }
